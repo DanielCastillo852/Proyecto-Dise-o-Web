@@ -76,18 +76,18 @@ body{
 }
 
 .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 29%;
     color: var(--blanco);
 
 }
 .logo__nombre{
     font-weight: 400;
 }
-.logo__bold{
-    font-weight: 700;
-}
 .navegacion{
     display: flex;
-    gap: 20%;
+    gap: 13%;
     margin-top: 2.5rem;
     align-items: center;
 }
@@ -108,10 +108,60 @@ body{
     grid-template-columns: 2fr 1fr;
     column-gap: 4rem;
 }
+/* Main */
+.textomain{
+    color: var(--blanco);
+}
+.zonaCuadros{
+    margin-left: 12rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     height: 260rem; */
+    overflow: hidden;
+}
+.content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.grid-item {
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 /* footer */
 .footer{
     background-color: var(--primarioPrincipal);
     margin-top: 3rem;
+    height: 200px;
+}
+.footer .barra{
+    padding: 0;
+    padding-top: 30px;
 }
 .footer h4, p{
     color: var(--blanco);
