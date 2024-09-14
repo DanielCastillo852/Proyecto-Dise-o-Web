@@ -2,7 +2,7 @@
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
     --primarioPrincipal: #281B76;
-    --primarioSecundario: #5B4DD9;
+--primarioSecundario: #5B4DD9;
     --dramaPrincipal: #5C162E;
     --dramaSecundario: #7C162E;
     --clasicoPrincipal: #3E4047;
@@ -62,9 +62,34 @@ h4{
 body{
     background-color: var(--primarioSecundario);
 }
-.header {
+.header{
     height: 15.625rem;
     background-color: var(--primarioPrincipal);
+}
+body .accion{
+    background-color: var(--accionPrincipal);
+}
+.accion{
+    background-color: var(--accionSecundario);
+}
+body .clasicos{
+    background-color: var(--clasicoPrincipal);
+}
+
+.clasicos{
+    background-color: var(--clasicoSecundario);
+}
+body .drama{
+    background-color: var(--dramaPrincipal);
+}
+.drama{
+    background-color: var(--dramaSecundario);
+}
+body .terror{
+    background-color: var(--terrorPrincipal);
+}
+.terror{
+    background-color: var(--terrorSecundario);
 }
 .header__texto {
     text-align: center;
@@ -158,6 +183,18 @@ body{
     background-color: var(--primarioPrincipal);
     margin-top: 3rem;
     height: 200px;
+}
+.accionf{
+    background-color: var(--accionPrincipal);
+}
+.terrorf{
+    background-color: var(--terrorPrincipal);
+}
+.dramaf{
+    background-color: var(--dramaPrincipal);
+}
+.clasicosf{
+    background-color: var(--clasicoPrincipal);
 }
 .footer .barra{
     padding: 0;
